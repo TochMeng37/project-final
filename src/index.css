@@ -5,8 +5,14 @@
 body{
   box-sizing: border-box;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 .font{
   font-family: 'Kanit', sans-serif;
+}
+.cen::-webkit-scrollbar{
+  display: none;
 }
 .back{
   background-image: url('https://i.pinimg.com/564x/97/cd/55/97cd55e2053dfc39371ea7bf0d0c9b84.jpg') ;
