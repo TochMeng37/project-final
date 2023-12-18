@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  box-sizing: border-box;
+}
+.font{
+  font-family: 'Kanit', sans-serif;
+}
+.back{
+  background-image: url('https://i.pinimg.com/564x/97/cd/55/97cd55e2053dfc39371ea7bf0d0c9b84.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.filter{
+  backdrop-filter: blur(10px);
+}
